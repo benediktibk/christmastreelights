@@ -71,6 +71,26 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Custom_jumper_switch
+#
+DEF Custom_jumper_switch SW 0 0 Y N 1 F N
+F0 "SW" 0 150 50 H V C CNN
+F1 "Custom_jumper_switch" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SW?DIP?x1*
+$ENDFPLIST
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+S -150 100 150 -100 0 1 10 f
+P 2 0 0 0 -60 5 93 46 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_C
 #
 DEF Device_C C 0 10 N Y 1 F N

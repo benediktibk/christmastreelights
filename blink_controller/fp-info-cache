@@ -1,4 +1,4 @@
-19314618827541341
+19316226622083147
 ArduinoKicad
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -49482,6 +49482,13 @@ connector_2pin_P10.6mm
 0
 4
 2
+Custom
+jumper_switch
+
+
+0
+0
+0
 Custom
 rb8522_size5
 
