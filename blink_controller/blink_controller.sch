@@ -51,7 +51,7 @@ U 1 1 5FCFF0A8
 P 1550 2250
 F 0 "C1" V 1298 2250 50  0000 C CNN
 F 1 "10nF" V 1389 2250 50  0000 C CNN
-F 2 "" H 1588 2100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 1588 2100 50  0001 C CNN
 F 3 "~" H 1550 2250 50  0001 C CNN
 	1    1550 2250
 	0    1    1    0   
@@ -75,10 +75,10 @@ F 3 "~" H 1750 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C3
 U 1 1 5FD006F6
 P 1750 3600
-F 0 "C?" H 1865 3646 50  0000 L CNN
+F 0 "C3" H 1865 3646 50  0000 L CNN
 F 1 "1uF" H 1865 3555 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 1788 3450 50  0001 C CNN
 F 3 "~" H 1750 3600 50  0001 C CNN
@@ -243,7 +243,7 @@ F 3 "~" H 2400 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1200 900  1800 900 
+	1200 900  1300 900 
 Wire Wire Line
 	1300 1000 1300 2250
 Wire Wire Line
@@ -366,4 +366,17 @@ Wire Wire Line
 Connection ~ 6200 3350
 Wire Wire Line
 	6200 3350 6200 3600
+$Comp
+L Device:Fuse F1
+U 1 1 5FD7A9BB
+P 1450 900
+F 0 "F1" V 1253 900 50  0000 C CNN
+F 1 "Fuse" V 1344 900 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 1380 900 50  0001 C CNN
+F 3 "~" H 1450 900 50  0001 C CNN
+	1    1450 900 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 900  1800 900 
 $EndSCHEMATC
